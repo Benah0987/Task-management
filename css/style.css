@@ -117,3 +117,79 @@
 #checkbox:checked ~ .body .side-bar a span{
 	display: none;
 }
+/* LOGIN PAGE STYLING */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #262931; /* Matches sidebar */
+    color: #fff;
+}
+
+.login-container {
+    background-color: #23242b; /* Matches header */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #eee; /* Light color to match theme */
+}
+
+.login-container .form-label {
+    font-weight: bold;
+    color: #ccc; /* Matches sidebar text */
+}
+
+.login-container .form-control {
+    background: #333;
+    color: #eee;
+    border: 1px solid #444;
+}
+
+.login-container .form-control:focus {
+    border-color: #127b8e;
+    background: #444;
+    color: #fff;
+}
+
+.login-container .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #127b8e;
+    border: none;
+    color: #fff;
+    transition: 300ms background;
+}
+
+.login-container .btn-primary:hover {
+    background: #0e5f6d;
+}
+
+.login-container .form-text {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.login-container .form-check-label {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.login-container .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.login-container .form-check-input {
+    margin-right: 10px;
+}
+

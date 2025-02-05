@@ -43,8 +43,14 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-cogs" aria-hidden="true"></i>
-                        <span>Settings</span>
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <span>Create Tasks</span>
+                    </a>
+                </li>
+				<li>
+                    <a href="#">
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                        <span>All Tasks</span>
                     </a>
                 </li>
                 <li>
